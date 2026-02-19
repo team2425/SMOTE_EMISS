@@ -1,0 +1,6 @@
+Method,Total Samples,Class 0 Count,Class 1 Count,Imbalance Ratio
+Original,400,322,78,4.128205128205129
+SMOTE,644,322,322,1.0
+ADASYN,644,322,322,1.0
+Borderline-SMOTE,644,322,322,1.0
+SMOTE+Tomek,644,322,322,1.0

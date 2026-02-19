@@ -1,0 +1,6 @@
+Method,Exact Duplicates,Exact Duplicates %,Near Duplicates,Near Duplicates %
+Original,79,19.75,79,19.75
+SMOTE,0,0.0,0,0.0
+ADASYN,0,0.0,0,0.0
+Borderline-SMOTE,0,0.0,0,0.0
+SMOTE+Tomek,0,0.0,0,0.0
