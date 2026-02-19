@@ -1,6 +1,6 @@
 # 📊 Dataset Balancing for Emission Classification Using Advanced Resampling Techniques
 
-## 📝 Overview
+## Overview
 
 This repository presents a comprehensive study on dataset balancing techniques for **emission classification (Low vs. High Emissions)**. The original dataset exhibited significant class imbalance, which can severely degrade machine learning model performance and bias predictions toward the majority class.
 
@@ -8,7 +8,7 @@ To mitigate this issue, multiple advanced resampling techniques were implemented
 
 ---
 
-## 📂 Original Dataset Statistics
+## Original Dataset Statistics
 
 | Metric | Value |
 |--------|------|
@@ -17,11 +17,11 @@ To mitigate this issue, multiple advanced resampling techniques were implemented
 | Class 1 — High Emissions | 78 (19.50%) |
 | Imbalance Ratio | 4.13 |
 
-⚠️ The dataset showed a strong majority bias toward **Low Emissions**, making direct model training unreliable without balancing.
+ The dataset showed a strong majority bias toward **Low Emissions**, making direct model training unreliable without balancing.
 
 ---
 
-## ⚖️ Implemented Balancing Techniques
+## Implemented Balancing Techniques
 
 The following advanced resampling methods were applied and evaluated:
 
@@ -39,7 +39,7 @@ Each method was assessed based on:
 
 ---
 
-## 📊 Balancing Results Comparison
+## Balancing Results Comparison
 
 | Technique | Total Samples | Class 0 | Class 1 | Imbalance Ratio | Exact Duplicates | Near Duplicates |
 |----------|---------------|---------|---------|------------------|------------------|-----------------|
@@ -48,13 +48,13 @@ Each method was assessed based on:
 | Borderline-SMOTE | 644 | 322 (50%) | 322 (50%) | 1.00 | 0% | 0% |
 | SMOTE + Tomek Links | 644 | 322 (50%) | 322 (50%) | 1.00 | 0% | 0% |
 
-✅ All techniques achieved perfect class balance without introducing duplicate samples.
+All techniques achieved perfect class balance without introducing duplicate samples.
 
 ---
 
-## 🏆 Recommended Technique
+## Recommended Technique
 
-### ✅ SMOTE + Tomek Links
+### SMOTE + Tomek Links
 
 **Reasons for Recommendation:**
 
@@ -68,11 +68,11 @@ This method provides the most reliable foundation for training robust emission c
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
 ---
 
-## 🔬 Research Significance
+## Research Significance
 
 Balanced datasets significantly improve:
 
@@ -86,23 +86,23 @@ This preprocessing pipeline ensures robustness and reliability in emission predi
 
 ---
 
-## 👨‍🏫 Authors
+## Authors
 
 **Dr. Shahul Hameed Chettali**  
 Assistant Professor, Department of CSE (Cyber Security)  
 Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology  
 Chennai, Tamil Nadu, India  
-📧 drshahulcse@gmail.com  
+drshahulcse@gmail.com  
 
 **S. Alfiya**  
 Assistant Professor, Department of Computer Science and Engineering  
 Vel Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College  
 Chennai, Tamil Nadu, India  
-📧 alfiya118@gmail.com  
+alfiya118@gmail.com  
 
 ---
 
-## ✍️ Author Contributions
+## Author Contributions
 
 ### Dr. Shahul Hameed Chettali 
 
