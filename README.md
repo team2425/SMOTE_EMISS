@@ -1,4 +1,4 @@
-# 📊 Dataset Balancing for Emission Classification Using Advanced Resampling Techniques
+# Dataset Balancing for Emission Classification Using Advanced Resampling Techniques
 
 ## Overview
 
